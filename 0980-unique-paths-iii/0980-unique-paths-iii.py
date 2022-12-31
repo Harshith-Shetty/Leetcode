@@ -8,7 +8,7 @@ class Solution:
                 count += grid[i][j] == 0
                 if not start and grid[i][j] == 1:
                     start = (i, j)
-        def backtrack(i: int, j: int) -> int:
+        def backtrack(i,j):
             nonlocal count
             result = 0
             for x, y in ((i-1, j), (i+1, j), (i, j-1), (i, j+1)):
