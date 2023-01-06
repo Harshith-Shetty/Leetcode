@@ -1,7 +1,11 @@
 class Solution:
     def maxIceCream(self, costs: List[int], coins: int) -> int:
-        acc = list(accumulate([0] + sorted(costs)))
-        count = bisect_left(acc, coins)
-        try: return count if acc[count] == coins else count - 1
-        except IndexError: return count - 1
+        result=0
+        costs.sort()
+        for i in costs:
+            if coins<i:
+                break
+            result+=1
+            coins-=i
+        return result
         
