@@ -5,7 +5,7 @@ class Solution:
         for x,y in enumerate(costs):
             if coins<y:
                 break
-            result+=1
-            coins -=y
+            result = result + 1
+            coins = coins - y
         return result
         
