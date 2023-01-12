@@ -6,7 +6,7 @@ class Solution:
             node2edges[edge[0]].append(edge[1])
             node2edges[edge[1]].append(edge[0])
             
-        def dfs(nodeId: int, parentNodeId: int, labelCounter: List[int]) -> None:
+        def dfs(nodeId, parentNodeId, labelCounter):
             nodeLabelId = ord(labels[nodeId]) - 97
             before = labelCounter[nodeLabelId]
             labelCounter[nodeLabelId] += 1
