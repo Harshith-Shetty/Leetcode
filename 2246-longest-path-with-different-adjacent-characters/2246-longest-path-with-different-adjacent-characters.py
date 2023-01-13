@@ -3,19 +3,15 @@ class Solution:
         g = defaultdict(list)
         for i, u in enumerate(parent):
             g[u].append(i)
-        # print(g)
         self.ans = 0
         
         def dfs(root):
-            # if not root:
-            #     return 0
             a1 = a2 = 0
             for v in g[root]:
                 if s[v] == s[root]:
                     dfs(v)
                     continue
                 curr = dfs(v)
-                # print(f"root {root}, v {v}, dfs(v) {curr}")
                 if curr >= a1:
                     a2 = a1
                     a1 = curr
@@ -23,7 +19,5 @@ class Solution:
                     a2 = curr
             self.ans = max(self.ans, a1 + a2 + 1)
             return a1 + 1
-        
-        dfs(0)
-        
+        dfs(0)        
         return self.ans
