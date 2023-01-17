@@ -8,7 +8,8 @@ class Solution:
         for x in s: 
             if x=='0':
                 cost -= 1 
+                output = min(output,cost)
             else:
                 cost += 1
-            output = min(output,cost)
+            
         return output
