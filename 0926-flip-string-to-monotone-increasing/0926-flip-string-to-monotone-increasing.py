@@ -1,17 +1,14 @@
 class Solution:
     def minFlipsMonoIncr(self, s: str) -> int:
-        num_flips = 0
-        num_ones = 0
+        result = 0
+        ones = 0
         
         for num in s:
-            # If it is one, imagine we are adding it to the end. Therefor it is always satisfying monotonicity
             if num =='1':
-                num_ones += 1
-            # Otherwise, we need to flip the 0, so increment flips. If after that, we have more flips than ones,
-            # flip the ones instead. Do this by setting num_flips to num_ones
+                ones += 1
             else:
-                num_flips += 1
-                if num_flips > num_ones:
-                    num_flips = num_ones
+                result += 1
+                if result > ones:
+                    result = ones
                     
-        return num_flips
+        return result
