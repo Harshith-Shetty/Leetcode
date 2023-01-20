@@ -1,12 +1,9 @@
 class Solution:
     def findSubsequences(self, nums: List[int]) -> List[List[int]]:
-        def combinations(idx, curArr, nums, res):
-            if len(curArr) >= 2:
-                res.add(curArr)
-            for i in range(idx, len(nums)):
-                if not curArr or nums[i] >= curArr[-1]:
-                    combinations(i+1, curArr+(nums[i],), nums, res)
-
-        res = set()
-        combinations(0, (), nums, res)
-        return res
+        if not nums: return nums
+        curr = [[nums[0]]]
+        for x in nums[1:]:
+            curr += [y+[x] for y in curr if x>=y[-1]]
+            curr += [[x]]
+        curr = [tuple(x) for x in curr if len(x)>=2]
+        return list(set(curr))
