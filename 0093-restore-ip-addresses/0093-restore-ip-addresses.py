@@ -5,7 +5,7 @@ class Solution:
         self.dfs(s, path, result)
         return result
     
-    def dfs(self, s: str, path: List, result: List):
+    def dfs(self,s,path,result):
         
         if not s and len(path) == 4:
             s = '.'.join(path[::-1])
