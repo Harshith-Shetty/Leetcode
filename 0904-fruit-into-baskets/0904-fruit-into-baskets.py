@@ -1,19 +1,18 @@
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
-        n = len(fruits)
-        if len(Counter(fruits))<3:
-            return n
-
-        dic = defaultdict(int)
-        res,st = 0,0
-        for end in range(n):
-            dic[fruits[end]]+=1
-            while len(dic)>2:
-                dic[fruits[st]]-=1
-                if dic[fruits[st]]==0:
-                    del dic[fruits[st]]
-                st+=1
-            res = max(res,end-st+1)
-
-        return max(res,n-st)
+        n=len(fruits)
+        i=j=m=0
+        x,y=fruits[0],-1
+        while j<n:
+            if fruits[j]!=x and y==-1:
+                y=fruits[j]
+            elif fruits[j]!=x and fruits[j]!=y:
+                x,y=fruits[j-1],fruits[j]
+                m=max(m,j-i)
+                i=j-1
+                while fruits[i-1]==x:
+                    i-=1
+            j+=1
+        m=max(m,j-i)
+        return m
 
