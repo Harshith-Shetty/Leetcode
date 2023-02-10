@@ -1,25 +1,14 @@
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
-        dir = [(-1,0), (0,-1), (1,0), (0,1)]
-        queue = []
-        for i  in range(len(grid)):
-            for j in range(len(grid[0])):
-                if grid[i][j] == 1:
-                    queue.append((i,j))
-                    
-        rows=len(grid)
-        cols = len(grid[0])
-                    
-        if len(queue) == 0 or len(queue) == rows*cols:
-            return -1
-        dist = 0
-        while queue:
-            dist +=1
-            for i in range(len(queue)):
-                x,y = queue.pop(0)
-                for dx,dy in dir:
-                    if x+dx<0 or y+dy<0 or x+dx>=rows or y+dy>=cols or grid[x+dx][y+dy]>=1:
-                        continue
-                    grid[x+dx][y+dy] = dist
-                    queue.append((x+dx,y+dy))
-        return dist-1
+        n = len(grid)
+        dq = deque((i, j) for i in range(n) for j in range(n) if grid[i][j])
+        res = 0
+        while dq:
+            r0, c0 = dq.popleft()
+            for dr, dc in ((-1, 0), (1, 0), (0, -1), (0, 1)):
+                r1, c1 = r0 + dr, c0 + dc
+                if 0 <= r1 < n and 0 <= c1 < n and not grid[r1][c1]:
+                    dq.append((r1, c1))
+                    grid[r1][c1] = grid[r0][c0] + 1
+                    res = max(res, grid[r1][c1])
+        return res - 1
