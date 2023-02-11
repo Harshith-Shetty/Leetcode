@@ -19,8 +19,8 @@ class Solution:
                 visited.add((curr, color))
                 if soln[curr] == -1:
                     soln[curr] = level
-                for neigh, neighColor in g[curr]:
-                    if color != neighColor:
-                        q.append((neigh, neighColor))
+                for x, y in g[curr]:
+                    if color != y:
+                        q.append((x,y))
             level += 1
         return soln
