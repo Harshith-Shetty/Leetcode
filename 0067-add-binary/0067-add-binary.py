@@ -1,16 +1,18 @@
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
-        m, n = len(a), len(b)
-        i, j = m - 1, n - 1
+        res = []
         carry = 0
-        result = []
-        while i >= 0 or j >= 0 or carry:
+        i, j = len(a) - 1, len(b) - 1
+        while i >= 0 or j >= 0:
+            sum = carry
             if i >= 0:
-                carry += int(a[i])
+                sum += int(a[i])
                 i -= 1
             if j >= 0:
-                carry += int(b[j])
+                sum += int(b[j])
                 j -= 1
-            result.append(str(carry % 2))
-            carry //= 2
-        return "".join(result[::-1])
+            carry = sum >> 1
+            res.append(str(sum & 1))
+        if carry:
+            res.append(str(carry))
+        return "".join(res[::-1])
