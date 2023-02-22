@@ -1,6 +1,6 @@
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
-        def isEnough(capacity): 
+        def Enough(capacity): 
             count = 1
             max = capacity
             for weight in weights:
@@ -13,7 +13,7 @@ class Solution:
         left, right = max(weights), sum(weights)
         while left < right:
             mid = left + (right - left) // 2
-            if isEnough(mid):
+            if Enough(mid):
                 right = mid
             else:
                 left = mid + 1
