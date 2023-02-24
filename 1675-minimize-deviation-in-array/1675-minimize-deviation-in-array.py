@@ -1,22 +1,36 @@
 class Solution:
     def minimumDeviation(self, nums: List[int]) -> int:
-        max_possible = max(2 * i if i % 2 else i for i in nums)
-        heap = []
+        max_odd = 0
         for i in nums:
-            # If it's even, divide by 2 until we reach its odd factor (>= 1);
-            # if it's odd, leave as odd original
-            odd_min, even_max = i, 2 * i if i % 2 else i
-            while odd_min % 2 == 0:
-                odd_min //= 2
-            heap += [(odd_min, even_max)]
-        heapq.heapify(heap)
-        max_num = max(heap, key=lambda r:r[0])[0]
-        min_deviation = max_possible
-        while True:
-            min_num, even_max = heapq.heappop(heap)
-            min_deviation = min(min_deviation, max_num - min_num)
-            if min_num == even_max:
-                # Min value can't be increased, so we're done
-                return min_deviation
-            heapq.heappush(heap, (2 * min_num, even_max))
-            max_num = max(max_num, 2 * min_num)
+            while i%2==0:i = i//2
+            max_odd = max(max_odd, i)
+            
+        # step 2: calculating the [(xi, yi)] list
+        dev = []
+        for i in nums:
+            if i%2 == 1:
+                if 2*i>max_odd:
+                    dev.append((2*i-max_odd, max_odd-i))
+                else:
+                    dev.append((float('inf'), max_odd-2*i))
+            else:
+                if i < max_odd:
+                    dev.append((float('inf'), max_odd-i))
+                else:
+                    while i%2==0 and i>max_odd:
+                        i = i//2
+                    if i < max_odd:
+                        dev.append((2*i-max_odd, max_odd-i))
+                        
+        # step 3: minimal sum of picked xi's and yi's
+        dev.sort(reverse=True)
+        if not dev: return 0
+        max_down = [0] * len(dev)
+        cur = 0
+        for i in range(len(max_down)):
+            cur = max(cur, dev[i][1])
+            max_down[i] = cur
+        mm = min(max_down[-1], dev[0][0])
+        for i in range(len(max_down)-1):
+            mm = min(mm, max_down[i]+dev[i+1][0])
+        return mm
