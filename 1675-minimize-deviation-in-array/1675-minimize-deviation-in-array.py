@@ -1,27 +1,31 @@
 class Solution:
     def minimumDeviation(self, nums: List[int]) -> int:
-        heap = []
-        min_val = float('inf')
-        min_deviation = float('inf')
-        
-        for idx in range(len(nums)):
-            if nums[idx] % 2 != 0:
-                nums[idx] *= 2
-            
-            heapq.heappush(heap, -nums[idx])
-            min_val = min(min_val, nums[idx])
-        
-        while heap:
-            max_val = heapq.heappop(heap) * -1
-            min_deviation = min(min_deviation, max_val-min_val)
-            
-            if max_val % 2 == 0:
-                max_val //= 2
-                # after dividing by two, get a number that is less than the current minimum 
-                min_val = min(min_val, max_val)
-                heapq.heappush(heap, -max_val)
-            else:
-                #If we continue further, we will find a non-maximum deviation among the pairs of numbers in the array after the transformations
-                break
-        
-        return min_deviation
+        for i in range(len(nums)):
+          nums[i] = -((nums[i] << 1) if nums[i] & 1 == 1 else nums[i])
+
+        minNum = -max(nums)
+        maxNums = nums
+        heapq.heapify(maxNums)
+        minDeviation = math.inf
+
+        # Decrease the current max num and compare the deviation en route
+        while True:
+          maxNum = -maxNums[0]
+          deviation = maxNum - minNum
+          if deviation < minDeviation:
+            minDeviation = deviation
+
+            # An optional shortcut
+            if minDeviation == 0:
+              break
+
+          # Can't decrease the max num anymore
+          if maxNum & 1 == 1:
+            break
+
+          maxNum >>= 1
+          heapq.heapreplace(maxNums, -maxNum)
+          if maxNum < minNum:
+            minNum = maxNum
+
+        return minDeviation
