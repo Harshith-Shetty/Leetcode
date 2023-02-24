@@ -1,31 +1,28 @@
 class Solution:
     def minimumDeviation(self, nums: List[int]) -> int:
         for i in range(len(nums)):
-          nums[i] = -((nums[i] << 1) if nums[i] & 1 == 1 else nums[i])
+            nums[i] = -((nums[i] << 1) if nums[i] & 1 == 1 else nums[i])
 
-        minNum = -max(nums)
-        maxNums = nums
-        heapq.heapify(maxNums)
-        minDeviation = math.inf
+        min_num = -max(nums)
+        max_nums = nums
+        heapq.heapify(max_nums)
 
-        # Decrease the current max num and compare the deviation en route
+        min_deviation = math.inf
         while True:
-          maxNum = -maxNums[0]
-          deviation = maxNum - minNum
-          if deviation < minDeviation:
-            minDeviation = deviation
+            max_num = -max_nums[0]
+            deviation = max_num - min_num
 
-            # An optional shortcut
-            if minDeviation == 0:
-              break
+            if deviation < min_deviation:
+                min_deviation = deviation
+                if min_deviation == 0:
+                    break
 
-          # Can't decrease the max num anymore
-          if maxNum & 1 == 1:
-            break
+            if max_num & 1 == 1:
+                break
 
-          maxNum >>= 1
-          heapq.heapreplace(maxNums, -maxNum)
-          if maxNum < minNum:
-            minNum = maxNum
+            max_num >>= 1
+            heapq.heapreplace(max_nums, -max_num)
+            if max_num < min_num:
+                min_num = max_num
 
-        return minDeviation
+        return min_deviation
