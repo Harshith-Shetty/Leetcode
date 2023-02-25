@@ -1,8 +1,12 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        max_profit, min_price = 0, float('inf')
+        least_so_far = inf
+        over_all_profit = 0
+        profit_if_sold_today = 0
         for price in prices:
-            min_price = min(min_price, price)
-            profit = price - min_price
-            max_profit = max(max_profit, profit)
-        return max_profit
+            if price < least_so_far:
+                least_so_far = price
+            profit_if_sold_today = price-least_so_far
+            if(profit_if_sold_today>over_all_profit):
+                over_all_profit = profit_if_sold_today
+        return over_all_profit
