@@ -1,12 +1,9 @@
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
-        h_pointer = 0
-        n_pointer = 0
-        while h_pointer < len(haystack):
-            if haystack[h_pointer] == needle[0]:
-                compare = haystack[h_pointer :h_pointer + len(needle)]
-                if compare == needle:
-                    return h_pointer
-
-            h_pointer+=1
+        h=len(haystack)
+        n=len(needle)
+        first_element_of_needle=needle[0]
+        for i in range(h-n+1):
+            if haystack[i]==first_element_of_needle and haystack[i:i+n]==needle:
+                return i
         return -1
