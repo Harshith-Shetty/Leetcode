@@ -10,9 +10,7 @@ class Solution:
         
         def invert(root):
             if root:
-                interval = root.left
-                root.left = root.right
-                root.right = interval
+                root.right, root.left = root.left, root.right
                 invert(root.left)
                 invert(root.right)
             return 0
