@@ -1,21 +1,27 @@
 class Solution:
     def minJumps(self, arr: List[int]) -> int:
-        d = defaultdict(list)
-        for j, e in enumerate(arr):
-            d[e].append(j)
+        if len(arr) == 1: return 0
+        dict = collections.defaultdict(list)
+        for i , n in enumerate(arr): dict[n].append(i)
 
-        queue = deque([0])
-        steps = 0
-        visited = {0}
-        n = len(arr)
-        while queue:
-            for _ in range(len(queue)):
-                i = queue.popleft()
-                if i == n - 1:
-                    return steps
-                for e in [*d[arr[i]], i-1, i+1]:
-                    if e not in visited and 0 <= e <= n:
-                        visited.add(e)
-                        queue.append(e)
-                d[arr[i]].clear()
-            steps += 1
+        N = len(arr)        
+        visited = {0, N - 1}
+        s1, s2 = {0}, {N - 1}
+        step = 0
+        while s1:
+            if len(s1) > len(s2): s1, s2 = s2, s1
+
+            s3 = set()
+            while s1:
+                i = s1.pop()
+                for n in [i - 1, i + 1] + dict[arr[i]]:
+                    if n in s2: return step + 1
+                    if n in visited: continue
+                    if not 0 <= n < N: continue
+                    visited.add(n)
+                    s3.add(n)
+                del dict[arr[i]]
+
+            s1 = s3
+            if s1: step = step + 1
+        return -1
