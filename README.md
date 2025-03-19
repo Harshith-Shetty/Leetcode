@@ -7,4 +7,12 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0585-investments-in-2016](https://github.com/Harshith-Shetty/Leetcode/tree/master/0585-investments-in-2016) |
+## Array
+|  |
+| ------- |
+| [1392-find-the-difference-of-two-arrays](https://github.com/Harshith-Shetty/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
+## Hash Table
+|  |
+| ------- |
+| [1392-find-the-difference-of-two-arrays](https://github.com/Harshith-Shetty/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 <!---LeetCode Topics End-->
