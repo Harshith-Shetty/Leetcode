@@ -1,14 +1,8 @@
 class Solution(object):
     def uniqueOccurrences(self, arr):
-        map = {}
-        occurence = set()
+        freq_map = {}
         for i in arr:
-            if i in map:
-                map[i] = map[i] + 1
-            else:
-                map[i] = 1
-        for key,value in map.items():
-            occurence.add(value)
-        return len(map) == len(occurence)
+            freq_map[i] = freq_map.get(i,0) + 1
+        return len(freq_map) == len(set(freq_map.values()))
 
         
