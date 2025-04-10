@@ -11,6 +11,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0118-pascals-triangle](https://github.com/Harshith-Shetty/Leetcode/tree/master/0118-pascals-triangle) |
 | [1319-unique-number-of-occurrences](https://github.com/Harshith-Shetty/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Harshith-Shetty/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Hash Table
@@ -23,4 +24,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0118-pascals-triangle](https://github.com/Harshith-Shetty/Leetcode/tree/master/0118-pascals-triangle) |
 <!---LeetCode Topics End-->
