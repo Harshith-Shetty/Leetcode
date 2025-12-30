@@ -10,6 +10,7 @@ Collection of LeetCode questions
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Harshith-Shetty/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Harshith-Shetty/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/Harshith-Shetty/Leetcode/tree/master/0118-pascals-triangle) |
@@ -25,6 +26,7 @@ Collection of LeetCode questions
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Harshith-Shetty/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Harshith-Shetty/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
 ## Dynamic Programming
@@ -47,4 +49,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Harshith-Shetty/Leetcode/tree/master/0054-spiral-matrix) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/Harshith-Shetty/Leetcode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
