@@ -10,6 +10,7 @@ Collection of LeetCode questions
 ## Array
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Harshith-Shetty/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/Harshith-Shetty/Leetcode/tree/master/0118-pascals-triangle) |
 | [1319-unique-number-of-occurrences](https://github.com/Harshith-Shetty/Leetcode/tree/master/1319-unique-number-of-occurrences) |
@@ -24,6 +25,7 @@ Collection of LeetCode questions
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Harshith-Shetty/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
 ## Dynamic Programming
 |  |
@@ -41,4 +43,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Harshith-Shetty/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Harshith-Shetty/Leetcode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
