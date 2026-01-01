@@ -15,6 +15,7 @@ Collection of LeetCode questions
 | [0054-spiral-matrix](https://github.com/Harshith-Shetty/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/Harshith-Shetty/Leetcode/tree/master/0118-pascals-triangle) |
+| [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
 | [1319-unique-number-of-occurrences](https://github.com/Harshith-Shetty/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Harshith-Shetty/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Hash Table
@@ -23,6 +24,7 @@ Collection of LeetCode questions
 | [0001-two-sum](https://github.com/Harshith-Shetty/Leetcode/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0208-implement-trie-prefix-tree](https://github.com/Harshith-Shetty/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
 | [1319-unique-number-of-occurrences](https://github.com/Harshith-Shetty/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Harshith-Shetty/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Matrix
@@ -55,4 +57,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Harshith-Shetty/Leetcode/tree/master/0048-rotate-image) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
