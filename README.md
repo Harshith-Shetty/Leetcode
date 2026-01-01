@@ -15,6 +15,7 @@ Collection of LeetCode questions
 | [0054-spiral-matrix](https://github.com/Harshith-Shetty/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/Harshith-Shetty/Leetcode/tree/master/0118-pascals-triangle) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Harshith-Shetty/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
 | [1319-unique-number-of-occurrences](https://github.com/Harshith-Shetty/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Harshith-Shetty/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -61,4 +62,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
+## Binary Search
+|  |
+| ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Harshith-Shetty/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
