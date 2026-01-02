@@ -26,6 +26,7 @@ Collection of LeetCode questions
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0208-implement-trie-prefix-tree](https://github.com/Harshith-Shetty/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Harshith-Shetty/Leetcode/tree/master/0242-valid-anagram) |
 | [1319-unique-number-of-occurrences](https://github.com/Harshith-Shetty/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Harshith-Shetty/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Matrix
@@ -42,6 +43,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Harshith-Shetty/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0242-valid-anagram](https://github.com/Harshith-Shetty/Leetcode/tree/master/0242-valid-anagram) |
 ## Design
 |  |
 | ------- |
@@ -62,6 +64,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Harshith-Shetty/Leetcode/tree/master/0242-valid-anagram) |
 ## Binary Search
 |  |
 | ------- |
