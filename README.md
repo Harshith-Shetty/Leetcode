@@ -42,6 +42,7 @@ Collection of LeetCode questions
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Harshith-Shetty/Leetcode/tree/master/0020-valid-parentheses) |
 | [0208-implement-trie-prefix-tree](https://github.com/Harshith-Shetty/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Harshith-Shetty/Leetcode/tree/master/0242-valid-anagram) |
 ## Design
@@ -69,4 +70,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Harshith-Shetty/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Harshith-Shetty/Leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
