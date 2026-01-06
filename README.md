@@ -14,6 +14,7 @@ Collection of LeetCode questions
 | [0048-rotate-image](https://github.com/Harshith-Shetty/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Harshith-Shetty/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0075-sort-colors](https://github.com/Harshith-Shetty/Leetcode/tree/master/0075-sort-colors) |
 | [0118-pascals-triangle](https://github.com/Harshith-Shetty/Leetcode/tree/master/0118-pascals-triangle) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Harshith-Shetty/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
@@ -68,6 +69,7 @@ Collection of LeetCode questions
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/Harshith-Shetty/Leetcode/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Harshith-Shetty/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Harshith-Shetty/Leetcode/tree/master/0268-missing-number) |
@@ -84,4 +86,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Harshith-Shetty/Leetcode/tree/master/0268-missing-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Harshith-Shetty/Leetcode/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
