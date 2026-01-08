@@ -26,6 +26,7 @@ Collection of LeetCode questions
 | ------- |
 | [0001-two-sum](https://github.com/Harshith-Shetty/Leetcode/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0205-isomorphic-strings](https://github.com/Harshith-Shetty/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Harshith-Shetty/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Harshith-Shetty/Leetcode/tree/master/0242-valid-anagram) |
@@ -46,6 +47,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Harshith-Shetty/Leetcode/tree/master/0020-valid-parentheses) |
+| [0205-isomorphic-strings](https://github.com/Harshith-Shetty/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Harshith-Shetty/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Harshith-Shetty/Leetcode/tree/master/0242-valid-anagram) |
 ## Design
