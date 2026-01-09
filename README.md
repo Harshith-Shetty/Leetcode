@@ -68,6 +68,7 @@ Collection of LeetCode questions
 | [0009-palindrome-number](https://github.com/Harshith-Shetty/Leetcode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/Harshith-Shetty/Leetcode/tree/master/0048-rotate-image) |
 | [0268-missing-number](https://github.com/Harshith-Shetty/Leetcode/tree/master/0268-missing-number) |
+| [0371-sum-of-two-integers](https://github.com/Harshith-Shetty/Leetcode/tree/master/0371-sum-of-two-integers) |
 ## Sorting
 |  |
 | ------- |
@@ -88,6 +89,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Harshith-Shetty/Leetcode/tree/master/0268-missing-number) |
+| [0371-sum-of-two-integers](https://github.com/Harshith-Shetty/Leetcode/tree/master/0371-sum-of-two-integers) |
 ## Two Pointers
 |  |
 | ------- |
