@@ -16,6 +16,7 @@ Collection of LeetCode questions
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Harshith-Shetty/Leetcode/tree/master/0075-sort-colors) |
 | [0118-pascals-triangle](https://github.com/Harshith-Shetty/Leetcode/tree/master/0118-pascals-triangle) |
+| [0128-longest-consecutive-sequence](https://github.com/Harshith-Shetty/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Harshith-Shetty/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Harshith-Shetty/Leetcode/tree/master/0268-missing-number) |
@@ -26,6 +27,7 @@ Collection of LeetCode questions
 | ------- |
 | [0001-two-sum](https://github.com/Harshith-Shetty/Leetcode/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/Harshith-Shetty/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0205-isomorphic-strings](https://github.com/Harshith-Shetty/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/Harshith-Shetty/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
@@ -94,4 +96,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Harshith-Shetty/Leetcode/tree/master/0075-sort-colors) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Harshith-Shetty/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
