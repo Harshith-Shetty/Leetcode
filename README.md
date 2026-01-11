@@ -87,6 +87,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Harshith-Shetty/Leetcode/tree/master/0020-valid-parentheses) |
+| [0094-binary-tree-inorder-traversal](https://github.com/Harshith-Shetty/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -100,4 +101,16 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Harshith-Shetty/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Harshith-Shetty/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Harshith-Shetty/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Harshith-Shetty/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->
