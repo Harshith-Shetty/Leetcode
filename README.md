@@ -20,6 +20,7 @@ Collection of LeetCode questions
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Harshith-Shetty/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Harshith-Shetty/Leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Harshith-Shetty/Leetcode/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0283-move-zeroes) |
 | [1319-unique-number-of-occurrences](https://github.com/Harshith-Shetty/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Harshith-Shetty/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Hash Table
@@ -97,6 +98,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Harshith-Shetty/Leetcode/tree/master/0075-sort-colors) |
+| [0283-move-zeroes](https://github.com/Harshith-Shetty/Leetcode/tree/master/0283-move-zeroes) |
 ## Union Find
 |  |
 | ------- |
