@@ -1,11 +1,19 @@
-class Solution:
-    def moveZeroes(self, nums: List[int]) -> None:
+class Solution(object):
+    def moveZeroes(self, nums):
         """
-        Do not return anything, modify nums in-place instead.
+        :type nums: List[int]
+        :rtype: None Do not return anything, modify nums in-place instead.
         """
-        none_zero = 0
+        # using temp list O(n)
+        temp = [0] * len(nums)
+        index = 0
+        curr = 0
+
+        while curr < len(nums):
+            if nums[curr] != 0:
+                temp[index] = nums[curr]
+                index +=1
+            curr +=1
+        nums[:] = temp
+
         
-        for i in range(len(nums)):
-            if nums[i] != 0:
-                nums[none_zero], nums[i] = nums[i], nums[none_zero]
-                none_zero += 1
